@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Interactive Box</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="title-div">
+        <span class="left-line"></span>
+        <span class="title">YAY!It’s BOGO</span>
+        <span class="right-line"></span>
+      </div>
+
+      <div class="big-box">
+        <div class="radio-box">
+          <input
+            class="input"
+            type="radio"
+            name="option"
+            id="option1"
+            onclick="expandBox(this)"
+          />
+          <label for="option1">
+            <div class="content">
+              <div class="details">
+                <!-- Left Side -->
+                <div class="left">
+                  <div class="unit-discount">
+                    <p class="unit-label">1 Unit</p>
+                    <div class="discount-badge">10% Off</div>
+                  </div>
+                  <p class="standard-price">Standard Price</p>
+                </div>
+                <!-- Right Side -->
+                <div class="right">
+                  <p class="price">$10.00 USD</p>
+                  <p class="old-price">$24.00 USD</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Size and Color Section -->
+
+            <div class="options">
+              <!-- Size Section -->
+              <div class="size-section">
+                <p>Size</p>
+                <div class="size-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="size-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="extra-small">XS</option>
+                    <option value="extra-large">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Color Section -->
+              <div class="color-section">
+                <p>Color</p>
+                <div class="color-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+                <div class="color-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+
+        <div class="radio-box">
+          <input
+            class="input"
+            type="radio"
+            name="option"
+            id="option2"
+            onclick="expandBox(this)"
+          />
+          <label for="option2"
+            ><div class="content">
+              <!-- Left Side -->
+              <div class="left">
+                <!-- Right Side -->
+                <div class="unit-discount">
+                  <p class="unit-label">2 Unit</p>
+                  <div class="discount-badge">20% Off</div>
+                </div>
+              </div>
+              <div class="right">
+                <p class="price">$18.00 USD</p>
+                <p class="old-price">$24.00 USD</p>
+              </div>
+            </div>
+
+            <!-- Size and Color Section -->
+
+            <div class="options">
+              <!-- Size Section -->
+              <div class="size-section">
+                <p>Size</p>
+                <div class="size-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="size-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="extra-small">XS</option>
+                    <option value="extra-large">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Color Section -->
+              <div class="color-section">
+                <p>Color</p>
+                <div class="color-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+                <div class="color-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="most-popular">MOST POPULAR</div>
+          </label>
+        </div>
+
+        <div class="radio-box">
+          <input
+            class="input"
+            type="radio"
+            name="option"
+            id="option3"
+            onclick="expandBox(this)"
+          />
+          <label for="option3"
+            ><div class="content">
+              <!-- Left Side -->
+              <div class="left">
+                <div class="unit-discount">
+                  <p class="unit-label">3 Unit</p>
+                  <div class="discount-badge">30% Off</div>
+                </div>
+              </div>
+              <!-- Right Side -->
+              <div class="right">
+                <p class="price">$24.00 USD</p>
+                <p class="old-price">$24.00 USD</p>
+              </div>
+            </div>
+
+            <!-- Size and Color Section -->
+
+            <div class="options">
+              <!-- Size Section -->
+              <div class="size-section">
+                <p>Size</p>
+                <div class="size-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="small">Small</option>
+                    <option value="medium">Medium</option>
+                    <option value="large">Large</option>
+                  </select>
+                </div>
+                <div class="size-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="extra-small">XS</option>
+                    <option value="extra-large">XL</option>
+                    <option value="xxl">XXL</option>
+                  </select>
+                </div>
+              </div>
+
+              <!-- Color Section -->
+              <div class="color-section">
+                <p>Color</p>
+                <div class="color-group">
+                  <label>#1</label>
+                  <select>
+                    <option value="red">Red</option>
+                    <option value="blue">Blue</option>
+                    <option value="green">Green</option>
+                  </select>
+                </div>
+                <div class="color-group">
+                  <label>#2</label>
+                  <select>
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="gray">Gray</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </label>
+        </div>
+      </div>
+      <div class="delivery-detail">
+        <div class="delivery">Free Delivery</div>
+        <div class="delivery-amount">Total:$18 <span>.00 USD</span></div>
+      </div>
+      <div class="cart">
+        <p><span>+</span>Add to Cart</p>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
