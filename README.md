@@ -3,7 +3,7 @@
 This project is a submission for the **Front-End Technical Support Task**, demonstrating skills in **HTML**, **CSS (no frameworks)**, and **vanilla JavaScript**.
 The goal was to recreate a set of **interactive product option boxes**, matching the provided **Figma design** and **example video** as closely as possible.
 
----
+
 
 ## 🚀 **Project Overview**
 
@@ -40,6 +40,14 @@ Each box behaves as follows:
 * Handles keyboard accessibility (`Enter` / `Space` to open a box)
 
 ---
+
+## 🖼️ Project Screenshot
+
+Below is a preview of the UI layout implemented:
+
+### **Main UI Preview**
+![Project Screenshot](./screenshots/interaction-box.png)
+
 
 ## 🛠 **Technologies Used**
 
