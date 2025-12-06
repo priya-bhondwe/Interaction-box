@@ -46,7 +46,7 @@ Each box behaves as follows:
 Below is a preview of the UI layout implemented:
 
 ### **Main UI Preview**
-![Project Screenshot](./screenshots/interaction-box.png)
+![Project Screenshot](./image/interaction-box.png)
 
 
 ## 🛠 **Technologies Used**
